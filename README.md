@@ -5,6 +5,7 @@ Bootstrapを業務アプリケーションで利用するためのサンプル�
 「Bootstrapとは、マルチデバイスに対応したレスポンシブWebサイトを簡単に構築するための「CSSフレームワーク」です。Bootstrapであらかじめ用意されたフレームワークに則り、UI部品を組み合わせると、フラットデザインをベースにした、見栄えの良いフロントエンドの開発ができます。そのため、開発工数を大幅に削減できるだけでなく、デザインが苦手なエンジニアでも、ユーザビリティの高い画面の開発が可能になります。
 
 ***
+![Bootstrapサンプル](https://raw.github.com/wiki/asashiho/html-bootstrap-sample.wiki/bootstrap.png)
 
 ## Bootstrapが提供する代表的なUIコントロール
 
