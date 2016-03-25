@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- 1. 言語を日本語に設定する-->
+<html lang="ja">
+  <head>
+    <!-- 2. charsetをutf-8に設定する-->
+    <meta charset="utf-8">
+
+    <!-- 3. ビューポートの設定-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CodeZine Bootstrap Sample</title>
+
+    <!-- 4. Bootstrapで使うCSSの読み込み-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <section class="container">
+
+        <div class="dropdown">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
+                アカウント管理<span class="caret"></span>
+            </button>
+
+            <ul class="dropdown-menu">
+                <li class="dropdown-header">個別登録</li>
+                <li><a href="#">アカウント新規登録</a></li>
+                <li><a href="#">アカウント変更</a></li>
+                <li><a href="#">アカウント削除</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">一括登録</li>
+                <li><a href="#">csv一括登録</a></li>
+                <li><a href="#">csv一括削除</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- 5. jQueryの読み込み-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- 6. Bootstrapで使うJavaScriptの読み込み-->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

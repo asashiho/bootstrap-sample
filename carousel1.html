@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!-- 1. 言語を日本語に設定する-->
+<html lang="ja">
+  <head>
+    <!-- 2. charsetをutf-8に設定する-->
+    <meta charset="utf-8">
+
+    <!-- 3. ビューポートの設定-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CodeZine Bootstrap Sample</title>
+
+    <!-- 4. Bootstrapで使うCSSの読み込み-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <section class="container">
+
+        <!-- 1.カルーセルパネルの配置 -->
+        <div id="carousel-example" class="carousel slide" data-ride="carousel">
+
+            <!-- 2.表示中のスライドを表すリスト -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example" data-slide-to="1"></li>
+                <li data-target="#carousel-example" data-slide-to="2"></li>
+             </ol>
+
+            <!-- 3.表示するスライドのコンテンツ -->
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/beach1.jpg">
+                    <div class="carousel-caption">
+                        <h3>見出し1</h3>
+                        <p>説明1</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="images/beach2.jpg">
+                    <div class="carousel-caption">
+                        <h3>見出し2</h3>
+                        <p>説明2</p>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="images/beach3.jpg">
+                    <div class="carousel-caption">
+                        <h3>見出し3</h3>
+                        <p>説明3</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4.左右の矢印ボタン -->
+            <a class="left carousel-control" href="#carousel-example" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+
+    </section>
+
+    <!-- 5. jQueryの読み込み-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- 6. Bootstrapで使うJavaScriptの読み込み-->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

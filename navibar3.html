@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!-- 1. 言語を日本語に設定する-->
+<html lang="ja">
+  <head>
+    <!-- 2. charsetをutf-8に設定する-->
+    <meta charset="utf-8">
+
+    <!-- 3. ビューポートの設定-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CodeZine Bootstrap Sample</title>
+
+    <!-- 4. Bootstrapで使うCSSの読み込み-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand">在庫管理システム</a>
+            </div>
+
+            <!-- 1.ドロップダウンメニューの作成 -->
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        アカウント情報<span class="caret"></span>
+                    </a>
+                    <!-- 1.メニューの配置 -->
+                    <ul class="dropdown-menu">
+                        <li><a href="#">パスワード変更</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">ログアウト</a></li>
+                    </ul>
+                <li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- 5. jQueryの読み込み-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- 6. Bootstrapで使うJavaScriptの読み込み-->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

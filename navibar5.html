@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- 1. 言語を日本語に設定する-->
+<html lang="ja">
+  <head>
+    <!-- 2. charsetをutf-8に設定する-->
+    <meta charset="utf-8">
+
+    <!-- 3. ビューポートの設定-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CodeZine Bootstrap Sample</title>
+
+    <!-- 4. Bootstrapで使うCSSの読み込み-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+
+            <!-- モバイル表示用の省略メニュー -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle"
+                data-toggle="collapse" data-target="#navbar-menu">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">在庫管理システム</a>
+            </div>
+
+            <!-- ナビゲーションメニュー -->
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">本部からのお知らせ</a></li>
+                    <li><a href="#">在庫確認</a></li>
+                    <li><a href="#">入出庫登録</a></li>
+                </ul>
+
+                <form class="navbar-form navbar-left hidden-xs">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="キーワード">
+                    </div>
+                    <button type="submit" class="btn btn-info">検索</button>
+                </form>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                            アカウント情報<span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">パスワード変更</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">ログアウト</a></li>
+                        </ul>
+                    </li>
+                <ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- 5. jQueryの読み込み-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!-- 6. Bootstrapで使うJavaScriptの読み込み-->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
